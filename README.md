@@ -34,12 +34,13 @@ The dataset is provided as a compressed .mat file containing the following key s
 
 **`train` / `valid` / `test`**: These arrays store the indices that delineate the data points for the training, validation, and testing sets required for the link prediction task.
 
-In addition, we sample the positive and negative edges in the network, and divide them into three text files: train, valid and test. And **`(dataset)_encoding.txt`is  **basic behavior pattern matrice.
+In addition, we sample the positive and negative edges in the network, and divide them into three text files: train, valid and test. And `(dataset)_encoding.txt`is  basic behavior pattern matrice.
 
 ## Usage
 
 First, you should modify the dataset path in the Link_prediction.py.
 
 Second, the parameters which are in the `Model.py` and Decoupling_matrix_aggregation.py should be modified based on the quantity of actual relations and basic behavior patterns in the dataset. 
+
 
 Finally, you need to execute the following command to run the link prediction task: python Link_Prediction.py
